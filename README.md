@@ -107,7 +107,7 @@ If not, click on the android emulator press ctrl+m then, select Enable Hot Reloa
 
 ## 3. React Native – Get started
 
-#### EX1 - Hello World!
+### EX1 - Hello World!
 
 Inside of the square render the text "Hello, world".
 
@@ -115,20 +115,20 @@ Helpful links: [View](https://reactnative.dev/docs/view), [Text](https://reactna
 
 ![image](https://user-images.githubusercontent.com/76050470/160011671-a3875487-66df-465b-b99a-abb501d78f4e.png)
 
-#### EX2 - Capturing Taps
+### EX2 - Capturing Taps
 
 The most basic form of interaction is capturing a user's tap (or press) on a screen.
 Using the Button component, capture a tap event and alert "Hello".
 
 Helpful links: [Button](https://reactnative.dev/docs/button), [TouchableOpacity](https://reactnative.dev/docs/touchableopacity)
 
-#### EX3 - Custom Component
+### EX3 - Custom Component
 
 Previously we've been exclusively using component from React Native. 
 
 Build your own button component that accepts an onPress and text prop. Use the TouchableOpacity and Text components to accomplish this.
 
-#### EX4 - State & Props
+### EX4 - State & Props
 
 We've taken a look at props previously - props allow us to pass data down to a component to interact with it.
 These props can be static values or dynamic. What we haven't used is state. 
@@ -140,7 +140,7 @@ Helpful links: [Use state hooks ](https://reactjs.org/docs/hooks-state.html), [I
 
 ![image](https://user-images.githubusercontent.com/76050470/160016262-3b3aa8f0-554b-4fa7-98ff-3898f3ff2e00.png)
 
-#### EX5 - Styling
+### EX5 - Styling
 
 React Native follows the same principles of CSS.
 
@@ -151,7 +151,7 @@ React Native follows the same principles of CSS.
  
  ![image](https://user-images.githubusercontent.com/76050470/160016582-1957152a-ee99-4985-9b8f-d61b2aacfe76.png)
 
-#### EX6 - Scrollable Content
+### EX6 - Scrollable Content
 
 Render 15 squares in a scrollable list.
 
@@ -159,13 +159,13 @@ Helpful links: [ScrollView](https://reactnative.dev/docs/scrollview), [Lists and
 
 ![image](https://user-images.githubusercontent.com/76050470/160016788-3e794fbd-3671-443b-ab6e-9109d9f156c0.png)
 
-#### EX7 - Building a Form
+### EX7 - Building a Form
 
 Using the `TextInput` component capture a user's name and, upon a button press, `alert` their name back to them. Add some style to the `TextInput` while you're.
 
 Helpful links: [TextInput](https://reactnative.dev/docs/textinput)
 
-#### EX8 - Long Lists & working with an API
+### EX8 - Long Lists & working with an API
 
 When you have longs lists of data the ScrollView component won't cut it - it's just not built for it.
 
@@ -180,5 +180,7 @@ Helpful links: [FlatList](https://reactnative.dev/docs/flatlist#docsNav), [Secti
 
 ![image](https://user-images.githubusercontent.com/76050470/160017792-1740dbca-c5e3-4434-ad7c-a7b8eba00b30.png)
 
+## 4. THOMAS PART
 
+...
 
