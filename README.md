@@ -87,10 +87,23 @@ Android studio and Xcode projects.
 
 Though your project ejected successfully, you may get an error.
 
-Ignore this error and run react native for android using the following command if you have setup AndroidStudio:
+Ignore this error and run react native for android using the following command if you have setup AndroidStudio else setup it here.
 
 -`react-native run-android`
 
+##### Step8 - local.properties
+
+Open the android folder in your project folder SampleReactNative/android (in this case).
+Create a file with named local.properties and add the following path in it.
+
+`sdk.dir = /C:\\Users\\YourUsername\\AppData\\Local\\Android\\Sdk`
+
+Here, replace YourUsername with your user name.
+
+##### Step9 - Hot Reloading
+
+And to build application modify the App.js and the changes will be automatically updated on the android emulator.
+If not, click on the android emulator press ctrl+m then, select Enable Hot Reloading option.
 
 
 
