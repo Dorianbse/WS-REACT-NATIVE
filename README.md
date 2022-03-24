@@ -33,33 +33,33 @@ Airbnb, SoundCloud or Instagram, this framework is widely acclaimed and recogniz
 
 There are a couple of things you need to install to set up the environment for React Native.
 
-##### Step1 - Install NPM and NodeJS
+#### Step1 - Install NPM and NodeJS
 - NodeJS and NPM, https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-##### Step2 - Install create-react-native-app
+#### Step2 - Install create-react-native-app
 
 After installing NodeJS and NPM successfully in your system:
 
 - `npm install -g create-react-native-app`
 
-##### Step3 - Create project
+#### Step3 - Create project
 
 - `create-react-native-app MyReactNativeApp`
 
 After executing the above command, a folder with specifies name is created.
 
-##### Step4 - NodeJS Python Jdk8
+#### Step4 - NodeJS Python Jdk8
 
 Make sure you have Python NodeJS and jdk8 installed in your system if not, install them.
 In addition to these it is recommended to install latest version of yarn to avoid certain issues.
 
-##### Step 5 - Install React Native CLI
+#### Step 5 - Install React Native CLI
 
 Install react native command line interface on npm, using the install -g reactnative-cli command as shown below.
 
 - `npm install -g react-native-cli`
 
-##### Step6 - Start react native
+#### Step6 - Start react native
 
 To verify the installation browse through the project folder and try starting the project
 using the start command.
@@ -72,7 +72,7 @@ If everything went well you will get a QR code.
 One way to run react native apps on your android devise is to using expo.
 Install expo client in your android devise and scan the obtained QR code.
 
-##### Step7 For people who are not on android - 
+#### Step7 For people who are not on android - 
 
 If you want to run android emulator using android studio, come out of the current
 command line by pressing ctrl+c.
@@ -91,7 +91,7 @@ Ignore this error and run react native for android using the following command i
 
 -`react-native run-android`
 
-##### Step8 - local.properties
+#### Step8 - local.properties
 
 Open the android folder in your project folder SampleReactNative/android (in this case).
 Create a file with named local.properties and add the following path in it.
@@ -100,7 +100,7 @@ Create a file with named local.properties and add the following path in it.
 
 Here, replace YourUsername with your user name.
 
-##### Step9 - Hot Reloading
+#### Step9 - Hot Reloading
 
 And to build application modify the App.js and the changes will be automatically updated on the android emulator.
 If not, click on the android emulator press ctrl+m then, select Enable Hot Reloading option.
