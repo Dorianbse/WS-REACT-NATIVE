@@ -172,7 +172,7 @@ Then, click on "Nouvelle Table" and add the attributes "Email" and "Password" wi
 
 In the Xampp Controll Pannel, click on the `explorer` button, then, in the `htdocs` folder, create an `api` folder.
 
-In this `api` folder, place the given `register.php` file and complete it.
+In this `api` folder, place the given `register.php` file ([here](https://github.com/thomasmrt13/WS_RN_Registerfile)) and complete it .
 
 #### Step5 - Test the API
 
