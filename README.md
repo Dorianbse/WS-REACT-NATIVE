@@ -142,9 +142,46 @@ Helpful links: [FlatList](https://reactnative.dev/docs/flatlist#docsNav), [Secti
 
 #### Step1 - Create the form
 
-Now that you are able to create some compoenents and add style to them, create a register form with 2 inputs (email and pass word) and a button and add style to make it presentable.
+Now that you are able to create some components, add style to them and make a fetch request, create a file named `SignUpSreen.js` and let's create a register form with 2 inputs (email and pass word) and a button and add style to make it presentable.
 
 There is an example:
 
 ![Capture d’écran 2022-03-29 141026](https://user-images.githubusercontent.com/75833671/160592728-c19d9dd5-e27f-4a5f-8981-1bd970d52b7f.png)
 
+#### Step2 - Insatall Xampp
+
+For this step, you need to install [Xampp](https://www.apachefriends.org/fr/index.html) that is a software that will allows you to create your php API to and make requests on your Database.
+
+When the installation is finished, open Xampp Controll Pannel and start `Apach` and `MySql` modules.
+
+![Capture d’écran 2022-03-29 145333](https://user-images.githubusercontent.com/75833671/160596350-1f85475a-cb3e-4841-8e67-7cfe0823df69.png)
+
+#### Step3 - Create the Database
+
+When Xampp started succesfully, open your browser and go to `http://localhost/phpmyadmin`.
+
+On the leftside of the page, click on "Nouvelle base de données" and name it however you want.
+
+![Capture d’écran 2022-03-29 150205](https://user-images.githubusercontent.com/75833671/160598205-7a8a5d97-93f3-4406-96bd-f420e90a6936.png)
+
+Then, click on "Nouvelle Table" and add the attributes "Email" and "Password" with type "VARCHAR" and define the size at 50.
+
+![Capture d’écran 2022-03-29 152624](https://user-images.githubusercontent.com/75833671/160601237-9b96c148-a9ee-4d32-8cf2-ede7d9f0abc8.png)
+
+#### Step4 - Create the API
+
+In the Xampp Controll Pannel, click on the `explorer` button, then, in the `htdocs` folder, create an `api` folder.
+
+In this `api` folder, place the given `register.php` file and complete it.
+
+#### Step5 - Test the API
+
+To test the API, you can use [postman](https://www.postman.com/) and make a POST request at `http://localhost/api/register.php` link with the Email and Password in the body and verify if the user is create in the Database.
+
+![Capture d’écran 2022-03-29 154949](https://user-images.githubusercontent.com/75833671/160605300-0fad7d9b-8b10-42a9-9798-046b913c1ce4.png)
+
+#### Step6 - Test the API
+
+Create a function `SignUp` that takes two strings in parameters, pass it in a fetch request to register the user in database and put the return message in Alert.
+
+### Finish
