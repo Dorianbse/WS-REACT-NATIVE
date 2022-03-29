@@ -46,7 +46,7 @@ After installing NodeJS and NPM successfully in your system:
 
 - `expo init MyReactNativeApp`
 
-After executing the above command, a folder with specifies name is created.
+After executing the above command, choose the first option "blank" and a folder with specifies name is created.
 
 #### Step4 - Start react native
 
