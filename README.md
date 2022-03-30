@@ -80,6 +80,9 @@ Using the Button component, capture a tap event and alert "Hello".
 
 Helpful links: [Button](https://reactnative.dev/docs/button), [TouchableOpacity](https://reactnative.dev/docs/touchableopacity)
 
+![image](https://user-images.githubusercontent.com/76050470/160763154-99b91f0a-c238-4d5c-a309-dd5bbe668318.png)
+
+
 ### EX3 - Custom Component
 
 Previously we've been exclusively using component from React Native. 
