@@ -124,6 +124,8 @@ Helpful links: [ScrollView](https://reactnative.dev/docs/scrollview), [Lists and
 
 Using the `TextInput` component capture a user's name and, upon a button press, `alert` their name back to them. Add some style to the `TextInput` while you're.
 
+![image](https://user-images.githubusercontent.com/76050470/160764079-b0370487-399f-482c-956f-1207431c30d4.png)
+
 Helpful links: [TextInput](https://reactnative.dev/docs/textinput)
 
 ### EX8 - Long Lists & working with an API
